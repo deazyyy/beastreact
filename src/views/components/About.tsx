@@ -8,7 +8,7 @@ const About: React.FC = () => {
         <img src="images/bark1.png" className="bark1" />
         <img src="images/bark2.png" className="bark2" />
         <img src="images/bark3.png" className="bark3" />
-        <section className="meet">
+        <section className="meet wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.60s">
           <img src="images/bush.png" className="bush" />
           <div className="info">
           <h2>
@@ -36,7 +36,7 @@ const About: React.FC = () => {
           </div>
         </section>
 
-        <section className="tokenomics">
+        <section className="tokenomics wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.80s">
         
           <h2>
            Tokenomics

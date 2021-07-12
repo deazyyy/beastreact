@@ -5,7 +5,7 @@ import React, { useState, useRef, useEffect } from 'react'
 const Roadmap: React.FC = () => {
   return (
     <>
-        <section className="roadmap">
+        <section className="roadmap wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.90s">
         <h2>
            Roadmap
           </h2>

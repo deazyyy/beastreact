@@ -82,7 +82,7 @@ const Home: React.FC = () => {
     <Header/>
     <About/>
     <Roadmap/>
-    <img src="images/bgfooter.png" className="bgfooter"/>
+    <img src="images/bgfooter.png" className="bgfooter wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s"/>
     </>
   )
 }

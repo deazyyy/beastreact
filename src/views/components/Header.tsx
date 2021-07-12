@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Header: React.FC = () => {
   return (
-    <section className="header">
+    <section className="header wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.20s">
 
         <div className="inner">
             <img src="images/logo.png" className="logo" />
