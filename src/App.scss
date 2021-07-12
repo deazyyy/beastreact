@@ -27,37 +27,6 @@ body{
 }
 
 
-
-.bark1{
-  position: absolute;
-  width: 20vw;
-  min-width: 200px;
-  height: auto;
-  right: 0;
-  top: 85%;
-}
-
-
-.bark2{
-  position: absolute;
-  width: 30vw;
-  min-width: 200px;
-  height: auto;
-  right: 0;
-  top: 50%;
-}
-
-
-.bark3{
-  position: absolute;
-  width: 28vw;
-  min-width: 200px;
-  height: auto;
-  left: 0;
-  top: 12%;
-  z-index: 1;
-}
-
 .btn-main{
   color: #fff;
   text-decoration: none;
@@ -124,10 +93,21 @@ body{
   background-position: bottom;
   padding: 0 15vw;
   .inner{
-    width: 20vw;
+    width: 25vw;
   }
   .logo{
     width: 100%;
+    max-width: 400px;
+  }
+  h2{
+    font-size: 34px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 18px;
+  }
+  .btn-main{
+    font-size: 16px;
   }
   .socialIcons{
     display: flex;
@@ -157,6 +137,43 @@ body{
 }
 
 
+.meetcards{
+  position: relative;
+  padding: 0 25vw;
+}
+
+
+.bark1{
+  position: absolute;
+  width: 20vw;
+  min-width: 200px;
+  height: auto;
+  right: 0;
+  top: 85%;
+}
+
+
+.bark2{
+  position: absolute;
+  width: 30vw;
+  min-width: 200px;
+  height: auto;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.bark3{
+  position: absolute;
+  width: 31vw;
+  min-width: 200px;
+  height: auto;
+  left: 0;
+  top: 40px;
+  transform: translateY(-100%);
+  z-index: 1;
+}
 
 
 
@@ -164,10 +181,11 @@ body{
   text-align: center;
   width: 50vw;
   margin: auto;
+  margin-top: -100px;
   h2{
     margin: 0;
     font-family: 'brushking';
-    margin-bottom: 16px;
+    margin-bottom: 34px;
   }
   .info{
     p{
@@ -191,7 +209,7 @@ body{
   h2{
     margin: 0;
     font-family: 'brushking';
-    margin-bottom: 16px;
+    margin-bottom: 34px;
   }
 }
 
@@ -201,12 +219,12 @@ body{
   margin: auto;
   margin-top: 70px;
   max-width: 900px;
-  margin-bottom: 0px;
+ 
   h2{
     margin: auto;
     text-align: center  ;
     font-family: 'brushking';
-    margin-bottom: 16px;
+    margin-bottom: 30px;
   }
   .content{
     width: 100%;
@@ -264,7 +282,11 @@ body{
 
 
 
-
+@media screen and (max-height: 1200px) {
+  .bgfooter{
+    margin-top: -150px;
+  }
+}
 
 @media screen and (max-width: 1200px) {
   .bgfooter{
@@ -277,6 +299,9 @@ body{
   }
   .meet{
     width: 60vw;
+  }
+  .meetcards{
+    padding: 0 20vw;
   }
 }
 
@@ -335,12 +360,15 @@ body{
   .meet{
     width: 80vw;
   }
-  .bark3{
-    top: 18%;
-    width: 24vw;
+  .meetcards{
+    padding: 0 10vw;
   }
+  // .bark3{
+  //   top: 18%;
+  //   width: 24vw;
+  // }
   .bark2{
-    top: 52%;
+    top: 70%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -387,10 +415,10 @@ body{
       }
     }
   }
-  .bark3{
-    top: 20%;
-    width: 24vw;
-  }
+  // .bark3{
+  //   top: 20%;
+  //   width: 24vw;
+  // }
   
 }
 
