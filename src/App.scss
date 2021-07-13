@@ -449,31 +449,66 @@ body{
       display: block;
     }
   }
-  $firstcorner :112px;
-  $firsttop :250px;
-  $secondcorner :8px ;
-  $secondtop :345px ;
+  // $firstcorner :112px;
+  // $firsttop :250px;
+  // $secondcorner :8px ;
+  // $secondtop :345px ;
+  // .roadmap{
+  //   padding: 0 20px;
+  //   .content{
+  //     background: none;
+  //     height: 100%;
+  //     div{
+  //       font-size: 12px;
+  //       width: 95px;
+  //     }
+
+  //     .l2, .l1, .r2, .r1, .c{
+  //       position: static;
+  //       transform: none;
+  //       background: #3e1385;
+  //       height: 200px;
+  //       width: 150px;
+  //       margin: 24px auto;
+  //       display: flex;
+  //       align-items: center;
+  //       justify-content: center;
+  //       border-radius: 50%;
+  //     }
+  //     .l2{
+  //       top: $secondtop;
+  //       left: $secondcorner;
+  //     }
+  //     .l1{
+  //       top: $firsttop;
+  //       left: $firstcorner;
+  //     }
+  //     .r2{
+  //       top: $secondtop;
+  //       right: $secondcorner;
+  //     }
+  //     .r1{
+  //       top: $firsttop;
+  //       right: $firstcorner;
+  //     }
+  //   }
+    
+  // }
+
+  $firstcorner :88px;
+  $firsttop :192px;
+  $secondcorner :6px ;
+  $secondtop :270px ;
   .roadmap{
     padding: 0 20px;
     .content{
-      background: none;
-      height: 100%;
+      height: 400px;
       div{
-        font-size: 12px;
-        width: 95px;
+        font-size: 11px;
+        width: 75px;
       }
-
-      .l2, .l1, .r2, .r1, .c{
-        position: static;
-        transform: none;
-        background: #3e1385;
-        height: 200px;
-        width: 150px;
-        margin: 24px auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
+      .c{
+        top: 150px;
       }
       .l2{
         top: $secondtop;
@@ -492,10 +527,10 @@ body{
         right: $firstcorner;
       }
     }
-    
   }
+
   .bgfooter{
-    margin-top: 0
+    margin-top: -60px
   }
   .meetcards{
     margin-top: 95px;
@@ -525,5 +560,44 @@ body{
     font-size: 16px;
   }
   .header .btn-main{font-size: 14px;}
+
+
+  $firstcorner :68px;
+  $firsttop :148px;
+  $secondcorner :5px ;
+  $secondtop :206px ;
+  .roadmap{
+    padding: 0 20px;
+    .content{
+      height: 400px;
+      div{
+        font-size: 8.5px;
+        width: 55px;
+      }
+      .c{
+        top: 118px;
+      }
+      .l2{
+        top: $secondtop;
+        left: $secondcorner;
+      }
+      .l1{
+        top: $firsttop;
+        left: $firstcorner;
+      }
+      .r2{
+        top: $secondtop;
+        right: $secondcorner;
+      }
+      .r1{
+        top: $firsttop;
+        right: $firstcorner;
+      }
+    }
+  }
+
+  .bgfooter{
+    margin-top: -118px
+  }
 }
 
