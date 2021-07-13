@@ -44,7 +44,7 @@ const About: React.FC = () => {
             <img src="images/cardleft.png" className="card_left" />
           </div>
           <div className="cards card_right">
-            <h3>Auto Burn</h3>
+            <h3>Instant</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -64,7 +64,7 @@ const About: React.FC = () => {
         <h2>Tokenomics</h2>
         <div className="cardOuter">
           <div className="cards ">
-            <h3>Auto Burn</h3>
+            <h3>Launch Burn</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -74,7 +74,7 @@ const About: React.FC = () => {
             <img src="images/cardleft.png" className="card_left" />
           </div>
           <div className="cards card_center">
-            <h3>Auto Burn</h3>
+            <h3>Liquidity Growth</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -84,7 +84,7 @@ const About: React.FC = () => {
             <img src="images/cardcenter.png" className="card_center" />
           </div>
           <div className="cards card_right">
-            <h3>Auto Burn</h3>
+            <h3>Uniswap LP</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
